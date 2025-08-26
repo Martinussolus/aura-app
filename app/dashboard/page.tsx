@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { connect, keyStores, WalletConnection } from 'near-api-js';
+import { connect, keyStores } from 'near-api-js';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase';
 

@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { connect, keyStores, WalletConnection } from 'near-api-js';
+import { connect, keyStores } from 'near-api-js';
+import { WalletConnection } from 'near-api-js'; // This line is problematic
 import { supabase } from '@/lib/supabase';
 
 const WalletConnector = () => {
